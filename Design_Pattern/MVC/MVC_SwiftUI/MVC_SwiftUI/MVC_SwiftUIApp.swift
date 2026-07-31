@@ -11,7 +11,7 @@ import SwiftUI
 struct MVC_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ItemListView()
         }
     }
 }

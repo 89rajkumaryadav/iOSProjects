@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ImageDownloaderApp: App {
+struct MainApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

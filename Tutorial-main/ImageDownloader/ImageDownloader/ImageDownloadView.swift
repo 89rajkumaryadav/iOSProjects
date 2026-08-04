@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ImageDownloadView.swift
 //  ImageDownloader
 //
 //  Created by Rajkumar Yadav on 31/07/26.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ImageDownloadView: View {
     let urls: [URL] = [
         URL(string: "https://fastly.picsum.photos/id/1/200/300.jpg?hmac=jH5bDkLr6Tgy3oAg5khKCHeunZMHq0ehBZr6vGifPLY")!,
         URL(string: "https://fastly.picsum.photos/id/2/200/300.jpg?hmac=HiDjvfge5yCzj935PIMj1qOf4KtvrfqWX3j4z1huDaU")!,
@@ -43,5 +43,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ImageDownloadView()
 }

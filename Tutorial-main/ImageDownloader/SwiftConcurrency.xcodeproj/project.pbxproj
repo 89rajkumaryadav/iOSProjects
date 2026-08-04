@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A47D6736301CA702008B822D /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D6735301CA702008B822D /* MainApp.swift */; };
+		A47D6761301D0CF1008B822D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D6760301D0CF1008B822D /* ContentView.swift */; };
+		A47D6763301D0F53008B822D /* Article.md in Resources */ = {isa = PBXBuildFile; fileRef = A47D6762301D0F53008B822D /* Article.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A47D6740301CA704008B822D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A47D6732301CA702008B822D /* ImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A47D673F301CA704008B822D /* ImageDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A47D6749301CA704008B822D /* ImageDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47D6732301CA702008B822D /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47D6735301CA702008B822D /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		A47D673F301CA704008B822D /* SwiftConcurrencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftConcurrencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47D6749301CA704008B822D /* SwiftConcurrencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftConcurrencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47D6760301D0CF1008B822D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A47D6762301D0F53008B822D /* Article.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Article.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +84,9 @@
 		A47D6729301CA702008B822D = {
 			isa = PBXGroup;
 			children = (
+				A47D6762301D0F53008B822D /* Article.md */,
+				A47D6760301D0CF1008B822D /* ContentView.swift */,
+				A47D6735301CA702008B822D /* MainApp.swift */,
 				A47D6734301CA702008B822D /* ImageDownloader */,
 				A47D6742301CA704008B822D /* ImageDownloaderTests */,
 				A47D674C301CA704008B822D /* ImageDownloaderUITests */,
@@ -85,9 +97,9 @@
 		A47D6733301CA702008B822D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A47D6732301CA702008B822D /* ImageDownloader.app */,
-				A47D673F301CA704008B822D /* ImageDownloaderTests.xctest */,
-				A47D6749301CA704008B822D /* ImageDownloaderUITests.xctest */,
+				A47D6732301CA702008B822D /* SwiftConcurrency.app */,
+				A47D673F301CA704008B822D /* SwiftConcurrencyTests.xctest */,
+				A47D6749301CA704008B822D /* SwiftConcurrencyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A47D6731301CA702008B822D /* ImageDownloader */ = {
+		A47D6731301CA702008B822D /* SwiftConcurrency */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A47D6753301CA704008B822D /* Build configuration list for PBXNativeTarget "ImageDownloader" */;
+			buildConfigurationList = A47D6753301CA704008B822D /* Build configuration list for PBXNativeTarget "SwiftConcurrency" */;
 			buildPhases = (
 				A47D672E301CA702008B822D /* Sources */,
 				A47D672F301CA702008B822D /* Frameworks */,
@@ -110,16 +122,16 @@
 			fileSystemSynchronizedGroups = (
 				A47D6734301CA702008B822D /* ImageDownloader */,
 			);
-			name = ImageDownloader;
+			name = SwiftConcurrency;
 			packageProductDependencies = (
 			);
 			productName = ImageDownloader;
-			productReference = A47D6732301CA702008B822D /* ImageDownloader.app */;
+			productReference = A47D6732301CA702008B822D /* SwiftConcurrency.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A47D673E301CA704008B822D /* ImageDownloaderTests */ = {
+		A47D673E301CA704008B822D /* SwiftConcurrencyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A47D6756301CA704008B822D /* Build configuration list for PBXNativeTarget "ImageDownloaderTests" */;
+			buildConfigurationList = A47D6756301CA704008B822D /* Build configuration list for PBXNativeTarget "SwiftConcurrencyTests" */;
 			buildPhases = (
 				A47D673B301CA704008B822D /* Sources */,
 				A47D673C301CA704008B822D /* Frameworks */,
@@ -133,16 +145,16 @@
 			fileSystemSynchronizedGroups = (
 				A47D6742301CA704008B822D /* ImageDownloaderTests */,
 			);
-			name = ImageDownloaderTests;
+			name = SwiftConcurrencyTests;
 			packageProductDependencies = (
 			);
 			productName = ImageDownloaderTests;
-			productReference = A47D673F301CA704008B822D /* ImageDownloaderTests.xctest */;
+			productReference = A47D673F301CA704008B822D /* SwiftConcurrencyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A47D6748301CA704008B822D /* ImageDownloaderUITests */ = {
+		A47D6748301CA704008B822D /* SwiftConcurrencyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A47D6759301CA704008B822D /* Build configuration list for PBXNativeTarget "ImageDownloaderUITests" */;
+			buildConfigurationList = A47D6759301CA704008B822D /* Build configuration list for PBXNativeTarget "SwiftConcurrencyUITests" */;
 			buildPhases = (
 				A47D6745301CA704008B822D /* Sources */,
 				A47D6746301CA704008B822D /* Frameworks */,
@@ -156,11 +168,11 @@
 			fileSystemSynchronizedGroups = (
 				A47D674C301CA704008B822D /* ImageDownloaderUITests */,
 			);
-			name = ImageDownloaderUITests;
+			name = SwiftConcurrencyUITests;
 			packageProductDependencies = (
 			);
 			productName = ImageDownloaderUITests;
-			productReference = A47D6749301CA704008B822D /* ImageDownloaderUITests.xctest */;
+			productReference = A47D6749301CA704008B822D /* SwiftConcurrencyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A47D672D301CA702008B822D /* Build configuration list for PBXProject "ImageDownloader" */;
+			buildConfigurationList = A47D672D301CA702008B822D /* Build configuration list for PBXProject "SwiftConcurrency" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +212,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A47D6731301CA702008B822D /* ImageDownloader */,
-				A47D673E301CA704008B822D /* ImageDownloaderTests */,
-				A47D6748301CA704008B822D /* ImageDownloaderUITests */,
+				A47D6731301CA702008B822D /* SwiftConcurrency */,
+				A47D673E301CA704008B822D /* SwiftConcurrencyTests */,
+				A47D6748301CA704008B822D /* SwiftConcurrencyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47D6763301D0F53008B822D /* Article.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47D6761301D0CF1008B822D /* ContentView.swift in Sources */,
+				A47D6736301CA702008B822D /* MainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +273,12 @@
 /* Begin PBXTargetDependency section */
 		A47D6741301CA704008B822D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A47D6731301CA702008B822D /* ImageDownloader */;
+			target = A47D6731301CA702008B822D /* SwiftConcurrency */;
 			targetProxy = A47D6740301CA704008B822D /* PBXContainerItemProxy */;
 		};
 		A47D674B301CA704008B822D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A47D6731301CA702008B822D /* ImageDownloader */;
+			target = A47D6731301CA702008B822D /* SwiftConcurrency */;
 			targetProxy = A47D674A301CA704008B822D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,7 +482,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageDownloader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageDownloader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftConcurrency.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftConcurrency";
 			};
 			name = Debug;
 		};
@@ -488,7 +503,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageDownloader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageDownloader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftConcurrency.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftConcurrency";
 			};
 			name = Release;
 		};
@@ -533,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A47D672D301CA702008B822D /* Build configuration list for PBXProject "ImageDownloader" */ = {
+		A47D672D301CA702008B822D /* Build configuration list for PBXProject "SwiftConcurrency" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A47D6751301CA704008B822D /* Debug */,
@@ -542,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A47D6753301CA704008B822D /* Build configuration list for PBXNativeTarget "ImageDownloader" */ = {
+		A47D6753301CA704008B822D /* Build configuration list for PBXNativeTarget "SwiftConcurrency" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A47D6754301CA704008B822D /* Debug */,
@@ -551,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A47D6756301CA704008B822D /* Build configuration list for PBXNativeTarget "ImageDownloaderTests" */ = {
+		A47D6756301CA704008B822D /* Build configuration list for PBXNativeTarget "SwiftConcurrencyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A47D6757301CA704008B822D /* Debug */,
@@ -560,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A47D6759301CA704008B822D /* Build configuration list for PBXNativeTarget "ImageDownloaderUITests" */ = {
+		A47D6759301CA704008B822D /* Build configuration list for PBXNativeTarget "SwiftConcurrencyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A47D675A301CA704008B822D /* Debug */,
